@@ -1,14 +1,4 @@
 /**
- * KMP (Knuth-Morris-Pratt) Algorithm Implementation
- * 
- * This module implements the KMP string matching algorithm with
- * step-by-step execution state emission for visualization.
- * 
- * Time Complexity: O(n + m) where n = text length, m = pattern length
- * Space Complexity: O(m) for the LPS array
- */
-
-/**
  * Computes the Longest Prefix Suffix (LPS) array with step-by-step states
  * @param {string} pattern - The pattern to compute LPS for
  * @returns {Object} - Contains lpsArray and lpsSteps for visualization

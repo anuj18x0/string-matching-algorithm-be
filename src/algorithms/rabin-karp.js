@@ -1,13 +1,3 @@
-/**
- * Rabin-Karp Algorithm Implementation
- * 
- * This module implements the Rabin-Karp string matching algorithm with
- * step-by-step execution state emission for visualization.
- * 
- * Time Complexity: O(n + m) average case, O(nm) worst case
- * Space Complexity: O(1)
- */
-
 // Default values for hash computation
 const DEFAULT_BASE = 256;  // Number of characters in alphabet
 const DEFAULT_MODULO = 101; // A prime number for modulo operation
